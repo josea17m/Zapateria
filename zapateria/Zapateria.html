@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Zapateria</title>
+    
+</head>
+<body style="background-color: #a1c1cc;">
+    <main style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+        <h1 id="titulo">Registro de mercancia</h1>
+
+        <form>
+            <br><label for="descripcion"></label>
+                <span>Descripcion del calzado</span><input type="text" id="descripcion" style="width: 250px;"><br>
+            </label>
+            <p id="factura"></p>
+                <br>
+                <label for="referencia">
+                    <span>Numero de referencia</span><input type="number" id="referencia"><br>
+                </label>
+                <br>
+
+                <label for="talla">
+                    <span>Talla</span><input type="number" id="talla" style="width: 30px;"><br>
+                </label>
+                <br>
+
+                <label for="costo">
+                    <span>Costo</span><input type="number" id="costo" style="width: 60px;"><br>
+                </label>
+                <br>
+
+                <label for="venta">
+                    <span>Precio de venta</span><input type="number" id="venta" style="width: 60px;"><br>
+                </label>
+                <br>
+            <label for="disponible">
+                <span>Disponibilidad</span><input type="checkbox" id="disponible">
+            </label>
+            <br>
+        </form>
+
+        <br>
+        <button id="boton1"; onclick="crearFactura()"; class="button">Enviar</button>
+        <button id="boton1"; class="button1" style="float: right;">Imprimir</button>
+        
+    </main>
+    <script src="Zapateria.js"></script>
+</body>
+</html>
